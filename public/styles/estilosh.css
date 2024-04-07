@@ -1,9 +1,7 @@
-/* Espaciado de la página*/
 *{  margin: auto;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
-/*Cabezera*/
 header{
     background-color: #080db0;
     border: 2.5px solid white;
@@ -26,7 +24,6 @@ header img{
     width: 5%;
     border-radius: 10%;
 }
-/* La navegación*/
 nav{
     background-color: #ddb2b2;
     min-height: 2em;
@@ -34,7 +31,6 @@ nav{
     text-align: center;
     border: 2.5px solid black;
 }
-/* Para la lista de modo horizontal*/
 nav li{
     display: inline;
     padding: 0.7em;
@@ -43,9 +39,7 @@ nav a{
     padding: 1.0em;
     color: #ffffff;
     background-color: #080db0;
-    /* Margen a fuera tendrá */
     margin: 0.3;
-    /*Elimina el subrayado del vinculo*/
     text-decoration: white;
     border-radius: 3px 30%;
     border: 3px solid white;
@@ -99,7 +93,7 @@ section h2{
     width: 55%;
 }
 
-/*Elemnto article*/
+/*Elementos de los article*/
 article{
     margin: 0.5em 3em;
     padding: 0.5em 2em;
