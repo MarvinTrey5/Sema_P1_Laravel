@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{asset('styles/estilosh.css')}}">
 </head>
 <body>
+    <!-- Página Principal creada por Elias / Marvin-->
     <!-- Encabezado de la página-->
     <header>
         <h1>RECICLAJE WEB2024 </h1>
