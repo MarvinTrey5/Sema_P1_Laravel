@@ -1,0 +1,118 @@
+/* Espaciado de la página*/
+*{  margin: auto;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Cabezera*/
+header{
+    background-color: #080db0;
+    border: 2.5px solid white;
+}
+header h1{
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+header h2{
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    /* Tamaño de la letra*/
+    font-size: 1.2em;
+}
+header img{
+    margin-left: 2%;
+    width: 5%;
+    border-radius: 10%;
+}
+/* La navegación*/
+nav{
+    background-color: #ddb2b2;
+    min-height: 2em;
+    padding: 1.5em;
+    text-align: center;
+    border: 2.5px solid black;
+}
+/* Para la lista de modo horizontal*/
+nav li{
+    display: inline;
+    padding: 0.7em;
+}
+nav a{
+    padding: 1.0em;
+    color: #ffffff;
+    background-color: #080db0;
+    /* Margen a fuera tendrá */
+    margin: 0.3;
+    /*Elimina el subrayado del vinculo*/
+    text-decoration: white;
+    border-radius: 3px 30%;
+    border: 3px solid white;
+}
+nav a:hover{
+    padding: 1.0em;
+    color: black;
+    background-color: white;
+    /* Margen a fuera tendrá */
+    margin: 0.3;
+    /*Elimina el subrayado del vinculo*/
+    text-decoration: yellow;
+    border-radius: 3px 30%;
+    border: 3px solid black;
+}
+
+/*Elemnto section*/
+section {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0.5em;
+    width: 100%;
+}
+section span{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+section strong{
+    color: #080db0;
+    text-shadow: 2px 2px 4px #000010;
+}
+section img{
+    margin: 5%;
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px 20%;
+    box-shadow: 4px 3px 4px black;
+}
+section h2{
+    text-align: center;
+    padding: 0.5em;
+    color: #000000;
+    font-size: 1.2em;
+    font-family: cursive;
+    background-color: aqua;
+    border-radius: 15%;
+    border: 3px solid #000000;
+    box-shadow: 1px 1px 1px black;
+    width: 55%;
+}
+
+/*Elemnto article*/
+article{
+    margin: 0.5em 3em;
+    padding: 0.5em 2em;
+    background-color: #ffffff;
+    margin-bottom: 2em;
+}
+article p{
+    text-align: justify;
+}
+footer{
+    padding: 3%;
+    background-color: #080db0;
+    border: 2.5px solid white;
+    text-align: center;
+    color: white;
+}
