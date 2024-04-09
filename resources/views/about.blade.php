@@ -28,7 +28,7 @@
                 <ul>Elías Canales Pineda. SMSS124622</ul>
                 <ul>Marvin Javier Santos Fernández. SMSS029022</ul>
                 <ul>Yesy Emilia Benítez Rios. SMSS936120</ul>
-                <ul>Mónico Alessandra Bonilla Escobar. SMSS144822</ul>
+                <ul>Mónica Alessandra Bonilla Escobar. SMSS144822</ul>
             </p>
         </article>
     </section>
