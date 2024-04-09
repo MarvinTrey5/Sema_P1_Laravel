@@ -25,10 +25,10 @@
         <h2> BIENVENIDOS A LA PAGINA ABOUT <br> INFORMACIÓN SOBRE LOS CREADORES</h2>
         <article>
             <p>
-                1- Elías Canales Pineda SMSS124622
-                2- Marvin Javier Santos Fernández SMSS029022
-                3- 
-                4 - 
+                <ul>Elías Canales Pineda. SMSS124622</ul>
+                <ul>Marvin Javier Santos Fernández. SMSS029022</ul>
+                <ul></ul>
+                <ul></ul>
             </p>
         </article>
     </section>
