@@ -17,7 +17,7 @@
     <nav>
         <ul>
             <li><a href="{{ url('/welcome') }}" target="_blank"> Pagina Base </a></li>
-            <li><a href="" target="_blank"> About </a></li>
+            <li><a href="/about" target="_blank"> About </a></li>
         </ul>
     </nav>
     <!-- Container para los elementos. -->
