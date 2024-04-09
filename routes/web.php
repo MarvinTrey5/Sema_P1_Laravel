@@ -9,3 +9,7 @@ Route::get('/welcome', function () {
 Route::get('/', function () {
     return view('home');
 });
+// Vista de la página llamada about
+Route::get('/about', function () {
+    return view('about');
+});
