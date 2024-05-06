@@ -25,15 +25,6 @@
         <h2> BIENVENIDOS AL PORTAL <br> INFORMACIÓN SOBRE RECICLAJE</h2>
         <article>
             <p>
-                Reciclaje en Morazán: Un camino hacia la sostenibilidad
-                Morazán, al igual que muchos lugares del mundo, enfrenta el desafío de la gestión responsable de los residuos sólidos. 
-                El reciclaje surge como una alternativa fundamental para proteger el medio ambiente, generar beneficios económicos y mejorar la calidad de vida 
-                de la población.
-                <img src="https://i0.wp.com/amprensa.com/wp-content/uploads/2017/05/reciclaje.jpg">
-            </p>
-        </article>
-        <article>
-            <p>
                 Importancia de colocar la basura en su lugar:
                 Evita la contaminación ambiental: La basura acumulada en lugares inapropiados contamina el suelo, el agua y el aire, 
                 poniendo en riesgo la salud de las personas y los ecosistemas.
