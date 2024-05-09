@@ -15,9 +15,17 @@
     </header>
     <!-- Navegación-->
     <nav>
-        <ul>
+        <ul class="horizontal">
             <li><a href="{{ url('/welcome') }}" target="_blank"> Pagina Base </a></li>
+            <li>
+                <a href="#">Usuarios</a>
+                <ul class="menu">
+                    <li><a href="{{ url('/indexUs') }}">Listas De usuarios</a></li>
+                    <li><a href="{{ url('/guardar') }}">Agregar Usuario</a></li>
+                </ul>
+            </li>
             <li><a href="/about" target="_blank"> About </a></li>
+
         </ul>
     </nav>
     <!-- Container para los elementos. -->
