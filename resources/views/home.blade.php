@@ -21,7 +21,14 @@
                 <a href="#">Usuarios</a>
                 <ul class="menu">
                     <li><a href="{{ url('/indexUs') }}">Listas De usuarios</a></li>
-                    <li><a href="{{ url('/guardar') }}">Agregar Usuario</a></li>
+                    <li><a href="{{ url('/guardar1') }}">Agregar Usuario</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Roles</a>
+                <ul class="menu">
+                    <li><a href="{{ url('/indexR') }}">Listas De Roles</a></li>
+                    <li><a href="{{ url('/guardar2') }}">Agregar Rol</a></li>
                 </ul>
             </li>
             <li><a href="/about" target="_blank"> About </a></li>
@@ -69,6 +76,5 @@
             Universidad Gerardo Barrios ☻ 2024
         </span>
     </footer>
-    </div>
 </body>
 </html>
