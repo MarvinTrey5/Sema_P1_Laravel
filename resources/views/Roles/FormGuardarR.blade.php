@@ -44,6 +44,13 @@
                     <li><a href="{{ url('/guardar') }}">Agregar Rol</a></li>
                 </ul>
             </li>
+            <li>
+                <a href="#">Trayectos</a>
+                <ul class="menu">
+                    <li><a href="{{ url('/trayectos/IndexT') }}">Listas De Trayectos</a></li>
+                    <li><a href="{{ url('/trayectos/guardarT') }}">Agregar Trayecto</a></li>
+                </ul>
+            </li>
             <li><a href="/about" target="_blank"> About </a></li>
         </ul>
     </nav>
@@ -52,7 +59,7 @@
             <h3>Registro De Rol</h3>
             <img class="imagen1" src="https://st2.depositphotos.com/1005979/7457/i/450/depositphotos_74579135-stock-photo-roles-word-pulled-by-a.jpg">
             @csrf
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <input type="text" name="nombre_rol" id="nombre_rol" placeholder="Nombre_Rol">
             <input type="text" name="descripcion" id="descripcion" placeholder="Descripción">
             <input type="submit" value="Guardar">
         </form>
