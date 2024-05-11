@@ -125,6 +125,15 @@ input[type="text"]{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+input[type="date"]{
+    width: 50%;
+    padding: 10px;
+    margin: 6%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
 
 input[type="submit"]{
     width: 50%;
@@ -150,7 +159,6 @@ input[type="submit"]:hover{
     background-color: white; 
     color: black;
     border: none;
-    cursor: pointer;
 }
 
 footer{
