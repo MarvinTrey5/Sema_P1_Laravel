@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 class ContenController extends Controller
 {
     public function indexC(Request $request){
-        $contents = Conten::all();
-        return view('Conten.IndexC',compact('contents'));
+        $contenedores = Conten::all();
+        return view('Conten.IndexC',compact('contenedores'));
     }
     public function guardar(Request $request){
         if($request->isMethod('GET')){
