@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Conten extends Model
 {
+    protected $table = 'conten_basura';
     protected $fillable=[
         'lugar',
         'tipo_conten'
