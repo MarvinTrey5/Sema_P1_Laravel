@@ -1,6 +1,4 @@
 <?php
-use App\Http\Controllers\UsuariosController;
-use App\Http\Controllers\RolesController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/welcome', function () {
@@ -14,15 +12,24 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+// Cargar rutas de usuarios
+Route::group(['prefix' => 'usuarios'], function () {
+    require __DIR__.'/usuarios.php';
+});
 
-Route::get('/indexUs',[UsuariosController::class,'index'])->name('indexUs');
-Route::match(['get','post'],'/guardar1',[UsuariosController::class,'guardar']);
-Route::get('/editar/{id}',[UsuariosController::class,'editarformU'])->name('formeditar');
-Route::put('/editar/{id}',[UsuariosController::class,'update'])->name('update');
-Route::delete('/{id}',[UsuariosController::class, 'delete'])->name('delete');
-
-Route::get('/indexR', [RolesController::class, 'IndexR'])->name('indexR');
-Route::match(['get', 'post'], '/guardar2', [RolesController::class, 'guardar'])->name('guardar');
-Route::get('/editar/{id}', [RolesController::class, 'EditarFormR'])->name('formeditarR');
-Route::put('/editar/{id}', [RolesController::class, 'update'])->name('updateR');
-Route::delete('/{id}', [RolesController::class, 'delete'])->name('deleteR');
+// Cargar rutas de roles
+Route::group(['prefix' => 'roles'], function () {
+    require __DIR__.'/roles.php';
+});
+// Carga rutas de trayectos
+Route::group(['prefix' => 'trayectos'], function () {
+    require __DIR__.'/trayectos.php';
+});
+// Cargar rutas de objetos
+Route::group(['prefix' => 'objetos'], function(){
+    require __DIR__.'/objetos.php';
+});
+// Cargar rutas de contenedores
+Route::group(['prefix' => 'contents'], function(){
+    require __DIR__.'/contents.php';
+});
