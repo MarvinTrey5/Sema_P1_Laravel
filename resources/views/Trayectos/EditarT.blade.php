@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="{{asset('styles/formularioEditar.css')}}">
 </head>
 <body>
-<nav>
-    <header>     
+<header class="base">
         <h1>RECICLAJE WEB2024 </h1>
-            <a href="{{ url('/') }}">
+        <a href="{{ url('/') }}">
             <img src="/styles/imgs/recicl.jpeg">
-            </a>
+        </a>
     </header>
+    <nav>
         <ul class="horizontal">
             <li><a href="{{ url('/welcome') }}" target="_blank"> Pagina Base </a></li>
             <li>
@@ -41,7 +41,7 @@
                 <a href="#">Objetos</a>
                 <ul class="menu">
                     <li><a href="{{ url('/objetos/IndexO') }}">Listas De Objetos</a></li>
-                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Trayecto</a></li>
+                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Objetos</a></li>
                 </ul>
             </li>
             <li>
@@ -54,6 +54,19 @@
             <li><a href="/about" target="_blank"> About </a></li>
         </ul>
     </nav>
+    <section>
+        <article>
+            <p class="base1">
+                Bienvenido a la página de edición de trayecto. Aquí puedes actualizar los detalles de tus trayectos 
+                para asegurarte de que la información esté siempre al día y precisa. Puedes modificar el punto de 
+                inicio, el destino, las paradas intermedias, y otros detalles importantes de tu trayecto. Además, 
+                puedes ajustar la hora de salida y llegada para reflejar cualquier cambio en tu horario. Una vez que 
+                hayas realizado los cambios necesarios, haz clic en el botón 'Guardar' para aplicar las actualizaciones. 
+                Si necesitas ayuda o tienes alguna pregunta, no dudes en contactar con nuestro equipo de soporte. Gracias 
+                por mantener la información de tus trayectos actualizada.         
+            </p>
+        </article>
+    </section>
     <div class="container">
         <form action="{{route('updateT',$registro->id)}}" method="post">
             <h3>Editar Trayecto</h3>
