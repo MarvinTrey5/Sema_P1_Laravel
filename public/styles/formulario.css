@@ -39,6 +39,10 @@ nav{
     font-size: 0.9em;
     border: 2.5px solid black;
 }
+.base {
+    background-color: #080db0;
+    width: 60%;
+}
 .horizontal{
     list-style: none;
     display: flex;
@@ -161,9 +165,10 @@ input[type="submit"]:hover{
     border: none;
 }
 
-footer{
+footer {
     padding: 3%;
     background-color: #080db0;
+    width: 60%;
     border: 2.5px solid white;
     text-align: center;
     color: white;
