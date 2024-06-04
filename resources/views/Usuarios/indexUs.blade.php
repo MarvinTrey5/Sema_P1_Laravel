@@ -9,7 +9,7 @@
 <body>
         <!-- Página Principal creada por Elias / Marvin-->
     <!-- Encabezado de la página-->
-    <header>
+    <header class="base">
         <h1>RECICLAJE WEB2024 </h1>
         <a href="{{ url('/') }}">
             <img src="/styles/imgs/recicl.jpeg">
