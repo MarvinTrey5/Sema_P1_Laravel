@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="{{asset('styles/formularioEditar.css')}}">
 </head>
 <body>
-
+    <header class="base">
+        <h1>RECICLAJE WEB2024 </h1>
+        <a href="{{ url('/') }}">
+            <img src="/styles/imgs/recicl.jpeg">
+        </a>
+    </header>
     <nav>
-        <header>
-            <h1>RECICLAJE WEB2024 </h1>
-            <a href="{{ url('/') }}">
-                <img src="/styles/imgs/recicl.jpeg">
-            </a>
-        </header>
         <ul class="horizontal">
             <li><a href="{{ url('/welcome') }}" target="_blank"> Pagina Base </a></li>
             <li>
@@ -42,7 +41,7 @@
                 <a href="#">Objetos</a>
                 <ul class="menu">
                     <li><a href="{{ url('/objetos/IndexO') }}">Listas De Objetos</a></li>
-                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Trayecto</a></li>
+                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Objetos</a></li>
                 </ul>
             </li>
             <li>
@@ -55,6 +54,19 @@
             <li><a href="/about" target="_blank"> About </a></li>
         </ul>
     </nav>
+    <section>
+        <article>
+            <p class="base1">
+                Bienvenido a la página de edición de usuario. Aquí puedes actualizar tu información personal y las 
+                preferencias de tu cuenta para mantener tu perfil actualizado. Por favor, asegúrate de que todos los 
+                campos obligatorios estén completos y correctos. Puedes modificar tu nombre, dirección de correo 
+                electrónico, contraseña, y otros detalles relevantes. Una vez que hayas realizado los cambios deseados, 
+                haz clic en el botón 'Guardar' para aplicar las actualizaciones. Si tienes alguna duda o necesitas 
+                asistencia, no dudes en contactar con nuestro soporte técnico. Gracias por mantener tu información 
+                actualizada.          
+            </p>
+        </article>
+    </section>
     <div class="container">
         <form action="{{route('update',$registro->id)}}" method="post">
             <h3>Editar Usuario</h3>
