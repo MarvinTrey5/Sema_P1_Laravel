@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="{{asset('styles/formularioEditar.css')}}">
 </head>
 <body>
-<nav>
-    <header>     
+<header class="base">
         <h1>RECICLAJE WEB2024 </h1>
-            <a href="{{ url('/') }}">
+        <a href="{{ url('/') }}">
             <img src="/styles/imgs/recicl.jpeg">
-            </a>
+        </a>
     </header>
+    <nav>
         <ul class="horizontal">
             <li><a href="{{ url('/welcome') }}" target="_blank"> Pagina Base </a></li>
             <li>
@@ -41,7 +41,7 @@
                 <a href="#">Objetos</a>
                 <ul class="menu">
                     <li><a href="{{ url('/objetos/IndexO') }}">Listas De Objetos</a></li>
-                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Trayecto</a></li>
+                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Objetos</a></li>
                 </ul>
             </li>
             <li>
@@ -54,6 +54,20 @@
             <li><a href="/about" target="_blank"> About </a></li>
         </ul>
     </nav>
+    <section>
+        <article>
+            <p class="base1">
+                Bienvenido a la página de edición de objetos. Aquí puedes actualizar la información y detalles 
+                de los objetos listados en nuestra plataforma. Puedes modificar el nombre, la descripción, la 
+                categoría, el estado y otros atributos importantes del objeto para mantener la información precisa 
+                y relevante. Asegúrate de que todos los campos estén completos y actualizados para facilitar la 
+                búsqueda y gestión de estos objetos. Una vez que hayas realizado los cambios necesarios, haz clic 
+                en el botón 'Guardar' para aplicar las actualizaciones. Si tienes alguna duda o necesitas asistencia, 
+                no dudes en contactar con nuestro equipo de soporte. Gracias por contribuir a mantener nuestra base de 
+                datos organizada y útil.         
+            </p>
+        </article>
+    </section>
     <div class="container">
         <form action="{{route('updateO',$registro->id)}}" method="post">
             <h3>Editar Objetos</h3>
