@@ -151,6 +151,5 @@
             Universidad Gerardo Barrios ☻ 2024
         </span>
     </footer>
-    <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
 </body>
 </html>
