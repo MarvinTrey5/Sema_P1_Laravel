@@ -44,7 +44,7 @@
                 <a href="#">Objetos</a>
                 <ul class="menu">
                     <li><a href="{{ url('/objetos/IndexO') }}">Listas De Objetos</a></li>
-                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Trayecto</a></li>
+                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Objetos</a></li>
                 </ul>
             </li>
             <li>
@@ -57,6 +57,65 @@
             <li><a href="/about" target="_blank"> About </a></li>
         </ul>
     </nav>
+    <section>
+        <article>
+            <p class="base1">
+                En nuestra página de reciclaje, la tabla de usuarios es una herramienta fundamental para administrar 
+                y organizar nuestra comunidad comprometida con el medio ambiente. Cada entrada en la tabla presenta un 
+                ID único para identificar a los usuarios de manera precisa. Junto a este ID, se muestra el nombre del 
+                usuario, permitiendo una rápida identificación y comunicación dentro de la plataforma. Además, el campo 
+                ID de Rol especifica el nivel de acceso y responsabilidad de cada usuario, garantizando un equilibrio 
+                adecuado de permisos y contribuciones en nuestras actividades de reciclaje. Esta estructura proporciona 
+                una visión clara y completa de nuestra red de usuarios, promoviendo la colaboración y la eficacia en 
+                nuestros esfuerzos por un mundo más sostenible.           
+                <img src="https://conocimiento.blob.core.windows.net/conocimiento/2022/Contables/ContabilidadBancos/CasosPracticos/CP_Usuarios_y_perfiles/drex_usuarios_y_perfiles_custom.png" >
+            </p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <p class="base1">
+            En nuestra plataforma de reciclaje, los cards de información sobre países líderes en el reciclaje ofrecen 
+            una ventana fascinante hacia el éxito ambiental a nivel global. Cada card destaca el nombre del país junto 
+            con datos clave, como la cantidad de residuos reciclados o la tasa de reciclaje alcanzada. Estos cards no 
+            solo informan, sino que también inspiran a nuestra comunidad, mostrando ejemplos concretos de cómo el 
+            compromiso y las políticas efectivas pueden impactar positivamente en el medio ambiente. A través de esta
+            presentación visual y accesible, invitamos a nuestros usuarios a aprender más sobre las prácticas exitosas 
+            implementadas en estos países líderes y a reflexionar sobre cómo pueden contribuir a mejorar la 
+            sostenibilidad en sus propias comunidades.          
+            </p>
+        </article>
+    </section>
+    <div class="comtainer">
+        <div class="card1">
+            <div class="imagen">
+                <img id="imagen" src="https://www.derichebourgespana.com/wp-content/uploads/2018/12/paises_que_mas_reciclan.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Suiza</h2>
+                <p>
+                    Suiza
+                    En los años 80, el país tuvo graves problemas de contaminación, los ríos estaban llenos de nitratos 
+                    y fosfatos y el suelo por metales pesados. Optaron por tomar medidas drásticas y han funcionado. El 
+                    reciclaje es obligatorio, de no hacerse las multas ascienden a los 10,000 euros.
+                </p>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="imagen">
+                <img src="http://static.cceea.mx/blog/2018/01/vidrio_1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Alemania</h2>
+                <p>
+                    Alemania
+                    Este país logra reciclar el 62% de toda la basura que genera, comenzaron con el desuso de bolsas de plástico y le siguieron 
+                    medidas de clasificación de residuos, educación ambiental desde edad temprana y conciencia social. Un ejemplo del compromiso 
+                    de la sociedad alemana es el supermercado sin envases.
+                </p>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <table>
             <caption>Lista De Usuarios</caption>
@@ -92,5 +151,6 @@
             Universidad Gerardo Barrios ☻ 2024
         </span>
     </footer>
+    <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
 </body>
 </html>
