@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="{{asset('styles/formularioEditar.css')}}">
 </head>
 <body>
-    <nav>
-        <header>
-            <h1>RECICLAJE WEB2024 </h1>
-            <a href="{{ url('/') }}">
+<header class="base">
+        <h1>RECICLAJE WEB2024 </h1>
+        <a href="{{ url('/') }}">
             <img src="/styles/imgs/recicl.jpeg">
-            </a>
-        </header>
+        </a>
+    </header>
+    <nav>
         <ul class="horizontal">
             <li><a href="{{ url('/welcome') }}" target="_blank"> Pagina Base </a></li>
             <li>
@@ -41,7 +41,7 @@
                 <a href="#">Objetos</a>
                 <ul class="menu">
                     <li><a href="{{ url('/objetos/IndexO') }}">Listas De Objetos</a></li>
-                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Trayecto</a></li>
+                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Objetos</a></li>
                 </ul>
             </li>
             <li>
@@ -54,6 +54,20 @@
             <li><a href="/about" target="_blank"> About </a></li>
         </ul>
     </nav>
+    <section>
+        <article>
+            <p class="base1">
+                Bienvenido a la página de edición de roles. Aquí puedes gestionar y actualizar los roles de los usuarios 
+                dentro de la plataforma para asegurarte de que cada miembro tenga los permisos adecuados según sus 
+                responsabilidades. Puedes asignar nuevos roles, modificar permisos existentes, y revocar roles que ya no 
+                sean necesarios. Asegúrate de revisar cuidadosamente los permisos asociados a cada rol para mantener la 
+                seguridad y eficiencia del sistema. Una vez que hayas realizado los cambios necesarios, haz clic en el 
+                botón 'Guardar' para aplicar las actualizaciones. Si tienes alguna pregunta o necesitas asistencia, 
+                no dudes en contactar con nuestro equipo de soporte. Gracias por tu ayuda en mantener nuestra comunidad 
+                organizada y segura.        
+            </p>
+        </article>
+    </section>
     <div class="container">
         <form action="{{route('updateR',$registro->id)}}" method="post">
             <h3>Editar Rol</h3>
