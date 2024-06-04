@@ -9,7 +9,7 @@
 <body>
     <!-- Página Principal creada por Elias / Marvin-->
     <!-- Encabezado de la página-->
-    <header>
+    <header class="base">
         <h1>RECICLAJE WEB2024 </h1>
         <img src="styles/imgs/recicl.jpeg">
     </header>
@@ -42,7 +42,7 @@
                 <a href="#">Objetos</a>
                 <ul class="menu">
                     <li><a href="{{ url('/objetos/IndexO') }}">Listas De Objetos</a></li>
-                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Trayecto</a></li>
+                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Objetos</a></li>
                 </ul>
             </li>
             <li>
@@ -58,9 +58,31 @@
     <!-- Container para los elementos. -->
     <section>
         <h2> BIENVENIDOS AL PORTAL <br> INFORMACIÓN SOBRE RECICLAJE</h2>
+        <main>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://miro.medium.com/v2/resize:fit:861/1*DBhtM6EYbFoAxyNbOmsyNA.jpeg"> 
+                    <div class="info">
+                        <h3>PRODUCCIÓN</h3>
+                        <p>
+                            La producción de residuos casi se ha duplicado.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://www.greenteach.es/wp-content/uploads/2023/03/reciclaje-portada.jpg"> 
+                    <div class="info">
+                        <h3>MUNDIAL</h3>
+                        <p>
+                            Al reciclar estamos ahorrando materias primas. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
         <article>
-            <p>
-                Importancia de colocar la basura en su lugar:
+            <p class="base1">
+                Importancia de colocar la basura en su lugar.
                 Evita la contaminación ambiental: La basura acumulada en lugares inapropiados contamina el suelo, el agua y el aire, 
                 poniendo en riesgo la salud de las personas y los ecosistemas.
                 Promueve el reciclaje: Separar los residuos facilita el proceso de reciclaje, permitiendo convertir materiales usados en nuevos productos.
@@ -69,7 +91,7 @@
             </p>
         </article>
         <article>
-            <p>
+            <p class="base1">
                 Situación actual del reciclaje en Morazán:
                 Planta de transferencia en San Francisco Gotera: aún no cuenta con los permisos del MARN para operar.
                 Capacidad: 25 toneladas de material al día.
