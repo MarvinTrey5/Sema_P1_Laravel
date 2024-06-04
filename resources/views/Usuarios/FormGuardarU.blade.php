@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{asset('styles/formulario.css')}}">
 </head>
 <body>
-    <header>
+    <header class="base">
         <h1>RECICLAJE WEB2024 </h1>
         <a href="{{ url('/') }}">
             <img src="/styles/imgs/recicl.jpeg">
@@ -42,7 +42,7 @@
                 <a href="#">Objetos</a>
                 <ul class="menu">
                     <li><a href="{{ url('/objetos/IndexO') }}">Listas De Objetos</a></li>
-                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Trayecto</a></li>
+                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Objetos</a></li>
                 </ul>
             </li>
             <li>
