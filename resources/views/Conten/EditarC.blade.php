@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="{{asset('styles/formularioEditar.css')}}">
 </head>
 <body>
-<nav>
-    <header>     
+<header class="base">
         <h1>RECICLAJE WEB2024 </h1>
-            <a href="{{ url('/') }}">
+        <a href="{{ url('/') }}">
             <img src="/styles/imgs/recicl.jpeg">
-            </a>
+        </a>
     </header>
+    <nav>
         <ul class="horizontal">
             <li><a href="{{ url('/welcome') }}" target="_blank"> Pagina Base </a></li>
             <li>
@@ -41,7 +41,7 @@
                 <a href="#">Objetos</a>
                 <ul class="menu">
                     <li><a href="{{ url('/objetos/IndexO') }}">Listas De Objetos</a></li>
-                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Trayecto</a></li>
+                    <li><a href="{{ url('/objetos/guardarR') }}">Agregar Objetos</a></li>
                 </ul>
             </li>
             <li>
@@ -53,7 +53,20 @@
             </li>
             <li><a href="/about" target="_blank"> About </a></li>
         </ul>
-</nav>
+    </nav>
+    <section>
+        <article>
+            <p class="base1">
+                Bienvenido a la página de edición de contenedores. Aquí puedes actualizar la información y los detalles 
+                de los contenedores en nuestra plataforma. Puedes modificar la ubicación, el tipo de residuos aceptados, 
+                la capacidad y otros detalles importantes para asegurar que la información esté siempre precisa y actualizada. 
+                Asegúrate de que todos los campos estén completos y correctos para facilitar el uso eficiente y la gestión de 
+                los contenedores. Una vez que hayas realizado los cambios necesarios, haz clic en el botón 'Guardar' para aplicar 
+                las actualizaciones. Si tienes alguna duda o necesitas asistencia, no dudes en contactar con nuestro equipo de 
+                soporte. Gracias por tu colaboración en mantener nuestra red de reciclaje organizada y efectiva        
+            </p>
+        </article>
+    </section>
     <div class="container">
         <form action="{{route('updateC',$registro->id)}}" method="post">
             <h3>Editar Contenedores</h3>
